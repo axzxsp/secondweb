@@ -104,6 +104,6 @@ theme: redefine
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/axzxsp/axzxsp.github.io
+  repo: https://github.com/axzxsp/axzxsp.github.io.git
   # example, https://github.com/hexojs/hexojs.github.io
   branch: gh-pages
