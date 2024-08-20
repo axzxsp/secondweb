@@ -1,80 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>工具（1）</title>
-    <url>/axzxsp/axzxsp.github.io.git/2024/08/19/%E5%B7%A5%E5%85%B7%EF%BC%881%EF%BC%89/</url>
-    <content><![CDATA[<p>一些实用的工具（2024.8.18）：</p>
-<p>科学上网： <a class="link"   href="https://www.cc98.org/topic/4915418" >https://www.cc98.org/topic/4915418 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p>大型语言模型（LLM）：</p>
-<table>
-<thead>
-<tr>
-<th></th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody><tr>
-<td>名称</td>
-<td>相关信息</td>
-<td>网址</td>
-</tr>
-<tr>
-<td>Poe</td>
-<td>集成了许多LLM，包括Chatgpt、Claude、Llama等，需要科学上网</td>
-<td><a class="link"   href="https://poe.com/" >https://poe.com/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></td>
-</tr>
-<tr>
-<td>Chatgpt</td>
-<td>经典无需多言，注册可参考：<br><br><a class="link"   href="https://www.cc98.org/topic/5563080" >https://www.cc98.org/topic/5563080 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><br>需要科学上网</td>
-<td><a class="link"   href="https://chatgpt.com/" >https://chatgpt.com/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></td>
-</tr>
-<tr>
-<td>Coze</td>
-<td>许久没用了，相关信息可参考：<br><br><a class="link"   href="https://www.cc98.org/topic/5776718" >https://www.cc98.org/topic/5776718 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><br>需要科学上网</td>
-<td><a class="link"   href="https://www.coze.com/" >https://www.coze.com/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></td>
-</tr>
-<tr>
-<td>Zchat</td>
-<td>面向浙大师生的Chatgpt镜像网站，<br><br>相关信息可参考：<br><br><a class="link"   href="https://www.cc98.org/topic/5725656" >https://www.cc98.org/topic/5725656 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><br>无需科学上网</td>
-<td><a class="link"   href="https://zchat.tech/" >https://zchat.tech <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></td>
-</tr>
-<tr>
-<td>Kimi</td>
-<td>感觉还行，无需科学上网</td>
-<td><a class="link"   href="https://kimi.moonshot.cn/" >https://kimi.moonshot.cn/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></td>
-</tr>
-<tr>
-<td>智谱清言</td>
-<td>一般般吧，无需科学上网，需下载客户端</td>
-<td><a class="link"   href="https://chatglm.cn/" >https://chatglm.cn/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></td>
-</tr>
-<tr>
-<td>文心一言</td>
-<td>不做评价，无需科学上网</td>
-<td><a class="link"   href="https://yiyan.baidu.com/" >https://yiyan.baidu.com/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></td>
-</tr>
-<tr>
-<td></td>
-<td>……</td>
-<td></td>
-</tr>
-</tbody></table>
-<p>注：由于笔者认知浅薄，且只用过以上这几个，参杂了部分个人感觉，如有不对的地方可以直接指出，或有其他好用的LLM也可分享。最近几年是LLM发展的热潮，新的LLM不断推出，故此指北有较强的时效性。还请各位根据实际情况、个人喜好自行斟酌。</p>
-<p>CS学习参考：</p>
-<p>pku ,CS自学指南 (csdiy.wiki)    <a class="link"   href="https://csdiy.wiki/" >https://csdiy.wiki/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p>zju-turing,图灵班学习指南(zju-turing.github.io) <a class="link"   href="https://zju-turing.github.io/TuringCourses/" >https://zju-turing.github.io/TuringCourses/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-]]></content>
-      <categories>
-        <category>工具</category>
-      </categories>
-      <tags>
-        <tag>未定义</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>第一篇文章</title>
-    <url>/axzxsp/axzxsp.github.io.git/2024/07/27/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <url>/2024/07/27/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
     <content><![CDATA[<h1 id="中华人民共和国劳动法"><a href="#中华人民共和国劳动法" class="headerlink" title="中华人民共和国劳动法"></a><strong>中华人民共和国劳动法</strong></h1><ul>
 <li>索  引  号：        717823004&#x2F;2018-00272    </li>
 <li>分       类：        综合性政策法规;主席令    </li>
@@ -293,9 +221,81 @@
       </tags>
   </entry>
   <entry>
+    <title>工具（1）</title>
+    <url>/2024/08/19/%E5%B7%A5%E5%85%B7%EF%BC%881%EF%BC%89/</url>
+    <content><![CDATA[<p>一些实用的工具（2024.8.18）：</p>
+<p>科学上网： <a class="link"   href="https://www.cc98.org/topic/4915418" >https://www.cc98.org/topic/4915418 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>大型语言模型（LLM）：</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>名称</td>
+<td>相关信息</td>
+<td>网址</td>
+</tr>
+<tr>
+<td>Poe</td>
+<td>集成了许多LLM，包括Chatgpt、Claude、Llama等，需要科学上网</td>
+<td><a class="link"   href="https://poe.com/" >https://poe.com/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></td>
+</tr>
+<tr>
+<td>Chatgpt</td>
+<td>经典无需多言，注册可参考：<br><br><a class="link"   href="https://www.cc98.org/topic/5563080" >https://www.cc98.org/topic/5563080 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><br>需要科学上网</td>
+<td><a class="link"   href="https://chatgpt.com/" >https://chatgpt.com/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></td>
+</tr>
+<tr>
+<td>Coze</td>
+<td>许久没用了，相关信息可参考：<br><br><a class="link"   href="https://www.cc98.org/topic/5776718" >https://www.cc98.org/topic/5776718 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><br>需要科学上网</td>
+<td><a class="link"   href="https://www.coze.com/" >https://www.coze.com/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></td>
+</tr>
+<tr>
+<td>Zchat</td>
+<td>面向浙大师生的Chatgpt镜像网站，<br><br>相关信息可参考：<br><br><a class="link"   href="https://www.cc98.org/topic/5725656" >https://www.cc98.org/topic/5725656 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><br>无需科学上网</td>
+<td><a class="link"   href="https://zchat.tech/" >https://zchat.tech <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></td>
+</tr>
+<tr>
+<td>Kimi</td>
+<td>感觉还行，无需科学上网</td>
+<td><a class="link"   href="https://kimi.moonshot.cn/" >https://kimi.moonshot.cn/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></td>
+</tr>
+<tr>
+<td>智谱清言</td>
+<td>一般般吧，无需科学上网，需下载客户端</td>
+<td><a class="link"   href="https://chatglm.cn/" >https://chatglm.cn/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></td>
+</tr>
+<tr>
+<td>文心一言</td>
+<td>不做评价，无需科学上网</td>
+<td><a class="link"   href="https://yiyan.baidu.com/" >https://yiyan.baidu.com/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></td>
+</tr>
+<tr>
+<td></td>
+<td>……</td>
+<td></td>
+</tr>
+</tbody></table>
+<p>注：由于笔者认知浅薄，且只用过以上这几个，参杂了部分个人感觉，如有不对的地方可以直接指出，或有其他好用的LLM也可分享。最近几年是LLM发展的热潮，新的LLM不断推出，故此指北有较强的时效性。还请各位根据实际情况、个人喜好自行斟酌。</p>
+<p>CS学习参考：</p>
+<p>pku ,CS自学指南 (csdiy.wiki)    <a class="link"   href="https://csdiy.wiki/" >https://csdiy.wiki/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>zju-turing,图灵班学习指南(zju-turing.github.io) <a class="link"   href="https://zju-turing.github.io/TuringCourses/" >https://zju-turing.github.io/TuringCourses/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+]]></content>
+      <categories>
+        <category>工具</category>
+      </categories>
+      <tags>
+        <tag>未定义</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
-    <url>/axzxsp/axzxsp.github.io.git/2024/07/08/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+    <url>/2024/07/08/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
 
 <p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
