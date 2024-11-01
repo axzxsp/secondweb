@@ -1,29 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2024/07/08/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>工具（1）</title>
     <url>/2024/08/19/%E5%B7%A5%E5%85%B7%EF%BC%881%EF%BC%89/</url>
     <content><![CDATA[<p>一些实用的工具（2024.8.18）：</p>
 <p>科学上网： <a class="link"   href="https://www.cc98.org/topic/4915418" >https://www.cc98.org/topic/4915418 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 <p>大型语言模型（LLM）：</p>
+<div class="table-container">
 <table>
 <thead>
 <tr>
@@ -32,7 +15,8 @@
 <th></th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>名称</td>
 <td>相关信息</td>
 <td>网址</td>
@@ -55,7 +39,7 @@
 <tr>
 <td>Zchat</td>
 <td>面向浙大师生的Chatgpt镜像网站，<br><br>相关信息可参考：<br><br><a class="link"   href="https://www.cc98.org/topic/5725656" >https://www.cc98.org/topic/5725656 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><br>无需科学上网</td>
-<td><a class="link"   href="https://zchat.tech/" >https://zchat.tech <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></td>
+<td><a class="link"   href="https://zchat.tech" >https://zchat.tech <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></td>
 </tr>
 <tr>
 <td>Kimi</td>
@@ -75,12 +59,13 @@
 <tr>
 <td></td>
 <td>……</td>
-<td></td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
+</div>
 <p>注：由于笔者认知浅薄，且只用过以上这几个，参杂了部分个人感觉，如有不对的地方可以直接指出，或有其他好用的LLM也可分享。最近几年是LLM发展的热潮，新的LLM不断推出，故此指北有较强的时效性。还请各位根据实际情况、个人喜好自行斟酌。</p>
 <p>CS学习参考：</p>
-<p>pku ,CS自学指南 (csdiy.wiki)    <a class="link"   href="https://csdiy.wiki/" >https://csdiy.wiki/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>pku ,CS自学指南 (csdiy.wiki)    <a class="link"   href="https://csdiy.wiki/" >https://csdiy.wiki/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 <p>zju-turing,图灵班学习指南(zju-turing.github.io) <a class="link"   href="https://zju-turing.github.io/TuringCourses/" >https://zju-turing.github.io/TuringCourses/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 ]]></content>
       <categories>
@@ -91,14 +76,120 @@
       </tags>
   </entry>
   <entry>
+    <title>电路原理笔记</title>
+    <url>/2024/10/31/%E7%94%B5%E8%B7%AF%E5%8E%9F%E7%90%86%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<embed src="./电路原理笔记.pdf" width="100%" height="600px" />
+]]></content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2024/07/08/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
+<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
+<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div>
+<p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div>
+<p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2024/11/01/%E7%94%B5%E8%B7%AF%E5%8E%9F%E7%90%86%E7%AC%94%E8%AE%B0md%E7%89%88%E6%9C%AC/</url>
+    <content><![CDATA[<h1 id="第一章-电路概述"><a href="#第一章-电路概述" class="headerlink" title="第一章 电路概述"></a>第一章 电路概述</h1><h3 id="Y-Delta-变换"><a href="#Y-Delta-变换" class="headerlink" title="Y-$\Delta$变换"></a>Y-$\Delta$变换</h3><p>![[{7AFFFB18-504F-401E-931D-2FB96971A8CD}.png]]<br>![[{07AB333E-6C78-4598-BEC0-3C34D100D881}.png]]<br>![[{B858CD3F-3BCA-4ABB-8533-376307826E19}.png]]</p>
+<h3 id="电压源与电流源的等效转换"><a href="#电压源与电流源的等效转换" class="headerlink" title="电压源与电流源的等效转换"></a>电压源与电流源的等效转换</h3><p>![[{A07C3E51-7469-4296-BEA0-BFF6FD09CA6B}.png]]</p>
+<p>![[{489E0009-7AAE-4E2F-861D-A942008D6EA1}.png]]</p>
+<h1 id="第二章-电路分析的基本方法及定理"><a href="#第二章-电路分析的基本方法及定理" class="headerlink" title="第二章 电路分析的基本方法及定理"></a>第二章 电路分析的基本方法及定理</h1><h3 id="1、图"><a href="#1、图" class="headerlink" title="1、图"></a>1、图</h3><p>点表示节点，线段表示支路<br>树;<br>连支；<br>支路数为b，节点数为n<br>$n_t$表示树枝的数目，则$n_t=n-1$<br>（单连支回路、独立回路）基本回路数=连支数目$l=b-n+1$<br>欧拉公式：面的数目=棱的数目-顶点的数目+2<br>将凸多面体的一个面任意扩大，得到平面图的网孔数$m=b-n+1$=基本回路数<br>单树支割集：n-1个</p>
+<h3 id="2、支路电流法"><a href="#2、支路电流法" class="headerlink" title="2、支路电流法"></a>2、支路电流法</h3><p>以支路电流作为电路变量<br>独立节点数(n-1)<br>独立节点电流方程数(n-1)</p>
+<p>支路电流法是以电路中<strong>各支路电流</strong>作为电路变量，<br>对 <strong>(n-1)</strong> 个独立节点列写基尔霍夫<strong>电流</strong>定律方程，<br>对 <strong>(b-n+1)</strong> 个独立回路列写基尔霍夫<strong>电压</strong>定律方程，<br>共列写出<strong>b</strong>个方程，然后求解这b个方程，最后得到b条支路电流的求解方法。</p>
+<p>尽可能将电流源所在支路置于连支上</p>
+<h3 id="3、回路电流法"><a href="#3、回路电流法" class="headerlink" title="3、回路电流法"></a>3、回路电流法</h3><p>以一组独立回路作为变量</p>
+<p>![[{09FA0307-A7C8-4715-BB5C-380D8F48D3EB}.png]]、![[{9ADA3621-AAC0-42EC-955D-F97040A3BC38}.png]]<br>![[{9959239C-BF61-4670-BCEE-D3EC7390A708}.png]]</p>
+<h3 id="4、网孔电流法"><a href="#4、网孔电流法" class="headerlink" title="4、网孔电流法"></a>4、网孔电流法</h3><p>在平面电路中，以各<strong>网孔环流</strong>作为未知量，<br>对 <strong>(b-n+1)</strong> 个网孔列写KVL方程，<br>从而求出各网孔电流(即网孔环流)的电路分析方法。</p>
+<p>![[{F0F47AD9-5A0C-4803-A5BB-8D7F0BCC2DE6}.png]]</p>
+<h3 id="5、节点电压法"><a href="#5、节点电压法" class="headerlink" title="5、节点电压法"></a>5、节点电压法</h3><p>![[{D47CDBA9-ACFF-4A53-BC6B-F08DB5890EEE}.png]]<br>![[{5630FB7A-967B-423D-B95C-2E83E01B1FE2}.png]]</p>
+<h3 id="6、改进节点法"><a href="#6、改进节点法" class="headerlink" title="6、改进节点法"></a>6、改进节点法</h3><p>首先将<strong>纯电压源所</strong>在支路当做<strong>电流源</strong>支路列写节点电压方程，由于引入了电流源电流(即电压源所在支路电流)新的未知量，因而需补充电压源两端电压与节点电压间的约束关系，上述求解方法就是改进节点法。</p>
+<h3 id="9、替代定理"><a href="#9、替代定理" class="headerlink" title="9、替代定理"></a>9、替代定理</h3><pre><code>在线性或非线性、时变或非时变电路中，当某支路电压、支路电流具有确定值时，该支路可用一个极性与支路电压极性相同、大小等于该支路电压的独立电压源替代;同样，该支路也可用一个与原支路电流方向相同、大小等于原支路电流的独立电流源替代，这样替代之后对电路中其余部分的电压、电流分配没有影响，即电路中其余部分的电压、电流保持不变，这就是替代定理。
+</code></pre><h3 id="10"><a href="#10" class="headerlink" title="10"></a>10</h3><h4 id="戴维南定理"><a href="#戴维南定理" class="headerlink" title="戴维南定理"></a>戴维南定理</h4><p>![[{5DD6AFE4-938D-4092-AEA9-632FB6F44483}.png]]要计算一个线性有源一端口网络的戴维南等效电路，其步骤和方法如下:<br>(1)计算U利用电路分析方法，计算相应端口的开路电压。<br>(2)计算R当线性有源一端口网络A中不含受控源时，令A内所有独立电源为零后得到的无源一端口网络P则为纯电阻网络，利用无源一端口网络的等效变换就可求出端口等效电阻;当线性有源一端口网络A中含有受控源时，令A内所有独立电源为零后得到的一端口网络P中仍含有受控源，这时，可采用加压法和开路短路法求R。</p>
+<h4 id="最大功率传输条件"><a href="#最大功率传输条件" class="headerlink" title="最大功率传输条件"></a>最大功率传输条件</h4><p>![[{21719D6A-5B19-43E8-A55E-D361FDE65AFB}.png]]<br>![[{5BE38A80-E1A5-40AF-9489-28B82A47FA25}.png]]  </p>
+<h4 id="诺顿定理"><a href="#诺顿定理" class="headerlink" title="诺顿定理"></a>诺顿定理</h4><p>![[{C3FD5824-F53A-42B7-815E-0DB19CABE90B}.png]]<br>$I_d=U_d/R_d$，$R_d$与戴维南定理中的相同</p>
+<h3 id="11、特勒根定理"><a href="#11、特勒根定理" class="headerlink" title="11、特勒根定理"></a>11、特勒根定理</h3><p>假设有两个拓扑结构完全相同的网络$\mathrm{N}$、$\hat{\mathrm{~N}}$,它们都具有$b$条支路、$n$个节点, 每条支路电压和电流采用一致的参考方向, 对应支路、节点均采用相同的编号, 则网络$N$的支路电流与网络$\hat{\mathrm{N}}$的对应支路电压的乘积之总和为零, 也有网络$N$的支路电压与网络$\hat{N}$的对应支路电流的乘积之总和为零。这就是特勒根定理。用数学表达式表示为</p>
+<script type="math/tex; mode=display">\sum_{k=1}^{b} \hat{U}_{k} I_{k}=0, \quad \sum_{k=1}^{b} U_{k} \hat{I}_{k}=0</script><p>倘若$\mathrm{N}$、$\hat{\mathrm{~N}}$是同一个网络，那么有</p>
+<script type="math/tex; mode=display">\sum_{k=1}^{b} U_{k} I_{k}=0</script><h3 id="12、互易定理"><a href="#12、互易定理" class="headerlink" title="12、互易定理"></a>12、互易定理</h3><h1 id="第三章-正弦交流电路"><a href="#第三章-正弦交流电路" class="headerlink" title="第三章 正弦交流电路"></a>第三章 正弦交流电路</h1><h3 id="表示"><a href="#表示" class="headerlink" title="表示"></a>表示</h3><p>有效值：$U、I$<br>最大值：$U_m、I_m$<br>$u(t)=U_m \sin(\omega t +\varphi )=\sqrt {2}U \sin(\omega t +\varphi )$<br>$i(t)=I_m \sin(\omega t +\varphi )=\sqrt {2}I \sin(\omega t +\varphi )=Im[\sqrt{2}Ie^{j \varphi}e^{j\omega t}]=Im[\sqrt{2}\dot{I}e^{j\omega t}]$<br>向量形式：<br>$\dot{I}=Ie^{j\varphi}=I\angle{\varphi}$</p>
+<h3 id="电阻"><a href="#电阻" class="headerlink" title="电阻"></a>电阻</h3><p>$U=IR$<br>$\dot{U}=\dot{I}R$<br>瞬时功率$p=ui=2UI\sin^2(\omega t)=UI-UI\cos{2 \omega t}$<br>平均功率=有功功率=$P=UI=I^2R=\frac{U^2}{R}$</p>
+<h3 id="电感"><a href="#电感" class="headerlink" title="电感"></a>电感</h3><p>$L$电感值，单位为亨利（$H$）<br>$u_L=\frac{\mathrm{d} \phi }{\mathrm{d} t}=L\frac{\mathrm{d} i_L }{\mathrm{d} t}=\sqrt{2}I\omega L\sin(\omega t +90^{\circ}) =\sqrt {2}U_L\sin(\omega t +90^{\circ})$<br>$U_L=\omega LI_L=X_L I_L$<br>$\dot{U}_L=j\omega L\dot{I}_L=jX_L\dot{I}_L$<br>自感电抗（感抗）$X_L=\frac{U_L}{I_L}=\omega L=2\pi fL$，单位为$\Omega$<br>电感电纳（感纳）$B_L=\frac{1}{X_L}=\frac{1}{\omega L}$，单位为西门子($S$)<br>瞬时功率$P_L=u_Li_L=2U_LI_L\sin(\omega t+90^{\circ})\sin{\omega t}=U_LI_L\sin{2\omega t}$<br>平均功率=有功功率=0<br>磁场储能$W_L=\frac{1}{2}Li^2_L=\frac{1}{2}LI^2_L(1-\cos{2\omega t})$</p>
+<h3 id="电容"><a href="#电容" class="headerlink" title="电容"></a>电容</h3><p>略</p>
+<h3 id="阻抗、导纳"><a href="#阻抗、导纳" class="headerlink" title="阻抗、导纳"></a>阻抗、导纳</h3><p>![[{525B0AC7-5C85-4B8F-8B5C-76C9155C5D0B}.png]]![[{DA8F811C-0414-4AFA-87DE-1139387422F5}.png]]<br>![[{5ABE5AD8-49B4-4FD4-B949-B41506C44395}.png]]</p>
+<h3 id="功率计算"><a href="#功率计算" class="headerlink" title="功率计算"></a>功率计算</h3><h4 id="瞬时功率"><a href="#瞬时功率" class="headerlink" title="瞬时功率"></a><strong>瞬时功率</strong></h4><script type="math/tex; mode=display">\begin{aligned}
+p & =u i=\sqrt{2} U \sin \left(\omega t+\psi_{u}\right) \times \sqrt{2} I \sin \left(\omega t+\psi_{i}\right) \\
+& =U I \cos \left(\psi_{u}-\psi_{i}\right)-U I \cos \left(2 \omega t+\psi_{u}+\psi_{i}\right)\\
+& =U I \cos \left(\psi_{u}-\psi_{i}\right)-U I\left[\cos \left(\psi_{u}-\psi_{i}\right) \cos \left(2 \omega t+2 \psi_{i}\right)-\sin \left(\psi_{u}-\psi_{i}\right) \sin \left(2 \omega t+2 \psi_{i}\right)\right] \\
+& =U I \cos \varphi\left[1-\cos \left(2 \omega t+2 \psi_{i}\right)\right]+U I \sin \varphi \sin \left(2 \omega t+2 \psi_{i}\right) \\
+& =p_{1}+p_{2}
+\end{aligned}</script><p>$p_1$传输方向始终不变，代表电网络实际消耗的电功率分量，平均值等于有功功率<br>$p_2$是电源和网路之间往返交换的能量，代表瞬时功率中的无功分量，平均值为零<br>定义该瞬时功率中无功分量的最大值为<strong>无功功率</strong>：</p>
+<h4 id="无功功率"><a href="#无功功率" class="headerlink" title="无功功率"></a><strong>无功功率</strong></h4><p>$Q=UI\sin{\varphi}$，单位为伏安，简称乏(var)</p>
+<ol>
+<li>负载为<strong>电感</strong>性，$\varphi&gt;0,Q&gt;0$,表示电感性负载<strong>吸收(消耗)</strong> 无功功率</li>
+<li>负载为<strong>电容</strong>性，$\varphi&lt;0,Q&lt;0$,表示电容性负载<strong>发出(产生)</strong> 无功功率</li>
+</ol>
+<h4 id="有功功率"><a href="#有功功率" class="headerlink" title="有功功率"></a><strong>有功功率</strong></h4><p>$P=UI\cos\psi$，单位W<br>功率因数角：$\varphi=\psi_u-\psi_i$<br>功率因数:$\cos{\varphi}$</p>
+<h4 id="功率表"><a href="#功率表" class="headerlink" title="功率表"></a>功率表</h4><p>读数$P = U I \cos \left(\psi<em>{u}-\psi</em>{i}\right)=UI \cos{\varphi}$</p>
+<p>![[1730280910373.png]]</p>
+<h4 id="设备容量"><a href="#设备容量" class="headerlink" title="设备容量"></a><strong>设备容量</strong></h4><p>额定电压与额定电流的乘积</p>
+<h4 id="视在功率"><a href="#视在功率" class="headerlink" title="视在功率"></a><strong>视在功率</strong></h4><p>$S=UI$<br>单位为伏安（$V\cdot A$）,或千伏安（$kV \cdot A$）</p>
+<h4 id="相互关系"><a href="#相互关系" class="headerlink" title="相互关系"></a><strong>相互关系</strong></h4><p>$P=S\cos{\varphi}$<br>$Q=S\sin{\varphi}$<br>$S=UI=\sqrt{P^2+Q^2}$<br>$\tan{\varphi}=\frac{Q}{P}$</p>
+<h4 id="复数功率"><a href="#复数功率" class="headerlink" title="复数功率"></a><strong>复数功率</strong></h4><script type="math/tex; mode=display">\tilde{S}=\dot{U}\overset{*}I=U I\angle
+{(\psi_{u}-\psi_{i})}=U I \cos \varphi+\mathrm{j} U I \sin \varphi=P+\mathrm{j} Q</script><p>$\overset{\star}I$是电流共轭向量<br>若电压电流方向一致，则上式表示一端口网络吸收的功率</p>
+<p>对于无源一端口网络，其吸收的复数功率可表示为</p>
+<script type="math/tex; mode=display">\tilde{S}=\dot{U}\overset{*}I=I^2Z=U^2\overset{*}Y</script><h4 id="RL-串联电路"><a href="#RL-串联电路" class="headerlink" title="RL 串联电路"></a>RL 串联电路</h4><p>![[{0180C74E-FB07-4C11-8F62-1E55BC76A5E0}.png]]<br>有功功率：$P=UI \cos{\varphi}=UI\frac{R}{\sqrt{R^2+X^2_L}}=\frac{U}{Z}IR=I^2R$<br>无功功率：$Q=UI \sin{\varphi}=UI\frac{X_L}{\sqrt{R^2+X^2_L}}=\frac{U}{Z}I X_L=I^2X_L$</p>
+<h4 id="功率守恒"><a href="#功率守恒" class="headerlink" title="功率守恒"></a>功率守恒</h4><p>各支路电流的共轭向量也满足基尔霍夫电流定律：</p>
+<script type="math/tex; mode=display">\sum_{k}\overset{*}I_{k}=0</script><p>一个封闭的电路系统，其各支路的复功率之和为零：若选取各支路电流与电压的参考方向一致，则根据特勒根定律，有</p>
+<script type="math/tex; mode=display">\sum_{1}^{b} \dot{U}_k \overset{*}I_{k}=0</script><p>或</p>
+<script type="math/tex; mode=display">\sum_{1}^{b} \tilde{S}_k=0</script><h4 id="正弦交流电路中的功率守恒定理"><a href="#正弦交流电路中的功率守恒定理" class="headerlink" title="正弦交流电路中的功率守恒定理"></a>正弦交流电路中的功率守恒定理</h4><p>![[{9CB8908A-C694-483A-B660-EE9CC0378A81}.png]]</p>
+<p>对典型支路有：</p>
+<script type="math/tex; mode=display">\sum_{1}^{b} \dot{U}_{\mathrm{Sk}} \overset{*}{I}_{e k}+\sum_{1}^{b} \overset{*}{I}_{\mathrm{Sk}} \dot{U}_{k}=\sum_{1}^{b} \dot{I}_{e k} \overset{*}{I}_{e k} Z_{k}</script><p>$\Longleftrightarrow$</p>
+<script type="math/tex; mode=display">\sum_{k} \tilde{S}_{\text {源 }}=\sum_{k} \tilde{S}_{\text {负载 }}</script><p>$\Longleftrightarrow$</p>
+<script type="math/tex; mode=display">\sum_{k}\left(P_{\text {源 }}+\mathrm{j} Q_{\text {源 }}\right)=\sum_{k}\left(P_{\text {负载 }}+\mathrm{j} Q_{\text {负载 }}\right)</script><p>即有</p>
+<script type="math/tex; mode=display">\begin{array}{l}
+\sum_{k} P_{\text {激 }}=\sum_{k} P_{\text {负载 }} \\
+\sum_{k} Q_{\text {源 }}=\sum_{k} Q_{\text {负载 }}
+\end{array}</script><h4 id="共轭匹配"><a href="#共轭匹配" class="headerlink" title="共轭匹配"></a>共轭匹配</h4><p>![[{6FF2D9C1-B7FD-4C21-BC06-D886E3192694}.png]]</p>
+<h1 id="第四章-谐振、互感及三相交流电路"><a href="#第四章-谐振、互感及三相交流电路" class="headerlink" title="第四章 谐振、互感及三相交流电路"></a>第四章 谐振、互感及三相交流电路</h1><p>谐振状态：阻抗或导纳呈纯电阻特性，使端口电压与电流成为同相。</p>
+<h3 id="1、谐振现象分析"><a href="#1、谐振现象分析" class="headerlink" title="1、谐振现象分析"></a>1、谐振现象分析</h3><h4 id="RLC串联谐振（电压谐振）"><a href="#RLC串联谐振（电压谐振）" class="headerlink" title="RLC串联谐振（电压谐振）"></a>RLC串联谐振（电压谐振）</h4><p>![[{3DE5B055-0241-442E-BD5F-0BCABA799D41}.png]]</p>
+<script type="math/tex; mode=display">Z=R+j\omega L-j \frac{1}{\omega C}=R+j(X_L-X_C)=R+jX</script><p>谐振角频率:$\omega_0=\frac{1}{\sqrt{LC}}$<br>谐振频率：$f_0=\frac{1}{2\pi}\frac{1}{\sqrt{LC}}$<br>特性阻抗：$\rho=\sqrt{LC}=\frac{1}{\omega_0 C}=\omega_0 L=X_C=X_L$，单位为$\Omega$<br>其他：</p>
+<script type="math/tex; mode=display">\begin{array}{l}
+\dot{U}_L=j\omega_0L\dot{I}=j\rho\dot{I}\\
+\dot{U}_C=-j\frac{1}{\omega_0 C}\dot{I}=-j\rho\dot{I}\\
+\dot{U}_R=R\dot{I}\\
+\dot{I}=\frac{\dot{U}}{Z}=\frac{\dot{U}}{R}\\
+\end{array}</script><p>品质因数Q:</p>
+<script type="math/tex; mode=display">Q=\frac{\rho}{R}=\frac{\omega_0 L}{R}=\frac{1}{R\omega_0C}=\frac{1}{R}\sqrt{\frac{L}{C}}=\frac{I_0\rho}{I_0R}=\frac{U_C}{U_R}=\frac{U_L}{U_R}</script><h4 id="RLC并联谐振-电流谐振"><a href="#RLC并联谐振-电流谐振" class="headerlink" title="RLC并联谐振(电流谐振)"></a>RLC并联谐振(电流谐振)</h4><p>![[{6DD60BF5-FE8E-4A2F-B199-84A3B0C60296}.png]]</p>
+<script type="math/tex; mode=display">Y=\frac{1}{R}-\mathrm{j}\left(\frac{1}{\omega L}-\omega C\right)</script><p>谐振角频率:$\omega<em>{0}=\frac{1}{\sqrt{L C}}$<br>并联谐振的条件:感纳与容纳相等, 即 $B</em>{L}=B_{C}$ , 或  $\frac{1}{\omega L}=\omega C$<br>此时电路人端电流为</p>
+<script type="math/tex; mode=display">\dot{I}=Y \dot{U}=\frac{1}{R} \dot{U}</script><p>各元件上电流分别为</p>
+<script type="math/tex; mode=display">\begin{array}{c}
+\dot{I}_{R}=\frac{1}{R} \dot{U}=\dot{I} \\
+\dot{I}_{L}=-\mathrm{j} \frac{1}{\omega_{0} L} \dot{U} \\
+\dot{I}_{C}=\mathrm{j} \omega_{0} C \dot{U}
+\end{array}</script><p>并联谐振时，若外加电压不变，则谐振时流入的电流最小，此电流等于电阻上流过的电流。</p>
+<ul>
+<li>若并联电路中没有电导$G$的支路，则谐振时入端导纳 $Y=0$ 。其等效阻抗  $Z \rightarrow \infty$  ，因此由 $L C$并联而成的电路在发生谐振时，其入端电流  $\dot{I}=0$  。</li>
+</ul>
+<p>并联谐振电路的品质因数定义为电路感纳 $\frac{1}{\omega<em>{0} L}$  （或容纳  $\omega</em>{0} C$ ）与电导  $G=\frac{1}{R}$  之比，即</p>
+<script type="math/tex; mode=display">Q=\frac{\omega_{0} C}{G}=\frac{1}{\omega_{0} L G}=\frac{1}{G} \sqrt{\frac{C}{L}}=\frac{I_C}{I_R}=\frac{I_L}{I_R}</script><p>![[Pasted image 20241031211720.png]]![[{DD4194EC-CDA2-495D-A788-7FE0C5ED51A8}.png]]</p>
+<h3 id="2、互感耦合电路"><a href="#2、互感耦合电路" class="headerlink" title="2、互感耦合电路"></a>2、互感耦合电路</h3><p><strong>全篇</strong></p>
+]]></content>
+  </entry>
+  <entry>
     <title>第一篇文章</title>
     <url>/2024/07/27/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
     <content><![CDATA[<h1 id="中华人民共和国劳动法"><a href="#中华人民共和国劳动法" class="headerlink" title="中华人民共和国劳动法"></a><strong>中华人民共和国劳动法</strong></h1><ul>
-<li>索  引  号：        717823004&#x2F;2018-00272    </li>
-<li>分       类：        综合性政策法规;主席令    </li>
+<li>索  引  号：        717823004/2018-00272    </li>
+<li>分       类：        综合性政策法规;主席令    </li>
 <li>发布单位：        法规司</li>
 <li>发文日期：        2018年12月29日</li>
-<li>标       题：        中华人民共和国劳动法</li>
+<li>标       题：        中华人民共和国劳动法</li>
 <li>发文字号：       无</li>
 <li>是否有效：      有效</li>
 <li>废止时间：   </li>
@@ -106,10 +197,6 @@
 </ul>
 <p>（1994年7月5日第八届全国人民代表大会常务委员会第八次会议通过　根据2009年8月27日第十一届全国人民代表大会常务委员会第十次会议《关于修改部分法律的决定》第一次修正　根据2018年12月29日第十三届全国人民代表大会常务委员会第七次会议《关于修改〈中华人民共和国劳动法〉等七部法律的决定》第二次修正）</p>
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">title: &quot;## 目录&quot;</span><br></pre></td></tr></table></figure></div>
-
-
-
-
 <h2 id="第一章-总则"><a href="#第一章-总则" class="headerlink" title="第一章 总则"></a><strong>第一章 总则</strong></h2><p>　　第一条　为了保护劳动者的合法权益，调整劳动关系，建立和维护适应社会主义市场经济的劳动制度，促进经济发展和社会进步，根据宪法，制定本法。</p>
 <p>　　第二条　在中华人民共和国境内的企业、个体经济组织（以下统称用人单位）和与之形成劳动关系的劳动者，适用本法。</p>
 <p>　　国家机关、事业组织、社会团体和与之建立劳动合同关系的劳动者，依照本法执行。</p>
