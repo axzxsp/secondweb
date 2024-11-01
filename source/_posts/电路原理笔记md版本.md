@@ -1,0 +1,265 @@
+---
+title: 电路原理笔记md版本
+date: 2024-11-01 10:40:00
+mathjax: true
+---
+
+## 第一章 电路概述
+### Y-$\Delta$变换
+
+![](/images/{7AFFFB18-504F-401E-931D-2FB96971A8CD}.png)
+![](/images/{07AB333E-6C78-4598-BEC0-3C34D100D881}.png)
+![](/images/{B858CD3F-3BCA-4ABB-8533-376307826E19}.png)
+### 电压源与电流源的等效转换
+
+
+![](/images/{A07C3E51-7469-4296-BEA0-BFF6FD09CA6B}.png)
+
+![](/images/{489E0009-7AAE-4E2F-861D-A942008D6EA1}.png)
+
+
+## 第二章 电路分析的基本方法及定理
+
+### 1、图
+点表示节点，线段表示支路
+树;
+连支；
+支路数为b，节点数为n
+$n_t$表示树枝的数目，则$n_t=n-1$
+（单连支回路、独立回路）基本回路数=连支数目$l=b-n+1$
+欧拉公式：面的数目=棱的数目-顶点的数目+2
+将凸多面体的一个面任意扩大，得到平面图的网孔数$m=b-n+1$=基本回路数
+单树支割集：n-1个
+
+### 2、支路电流法
+以支路电流作为电路变量
+独立节点数(n-1)
+独立节点电流方程数(n-1)
+
+支路电流法是以电路中**各支路电流**作为电路变量，
+对 **(n-1)** 个独立节点列写基尔霍夫**电流**定律方程，
+对 **(b-n+1)** 个独立回路列写基尔霍夫**电压**定律方程，
+共列写出**b**个方程，然后求解这b个方程，最后得到b条支路电流的求解方法。
+
+尽可能将电流源所在支路置于连支上
+### 3、回路电流法
+以一组独立回路作为变量
+
+![](/images/{09FA0307-A7C8-4715-BB5C-380D8F48D3EB}.png)、![](/images/{9ADA3621-AAC0-42EC-955D-F97040A3BC38}.png)
+![](/images/{9959239C-BF61-4670-BCEE-D3EC7390A708}.png)
+
+### 4、网孔电流法
+在平面电路中，以各**网孔环流**作为未知量，
+对 **(b-n+1)** 个网孔列写KVL方程，
+从而求出各网孔电流(即网孔环流)的电路分析方法。
+
+![](/images/{F0F47AD9-5A0C-4803-A5BB-8D7F0BCC2DE6}.png)
+
+### 5、节点电压法
+
+![](/images/{D47CDBA9-ACFF-4A53-BC6B-F08DB5890EEE}.png)
+![](/images/{5630FB7A-967B-423D-B95C-2E83E01B1FE2}.png)
+### 6、改进节点法
+
+首先将**纯电压源所**在支路当做**电流源**支路列写节点电压方程，由于引入了电流源电流(即电压源所在支路电流)新的未知量，因而需补充电压源两端电压与节点电压间的约束关系，上述求解方法就是改进节点法。
+
+### 9、替代定理
+在线性或非线性、时变或非时变电路中，当某支路电压、支路电流具有确定值时，该支路可用一个极性与支路电压极性相同、大小等于该支路电压的独立电压源替代;同样，该支路也可用一个与原支路电流方向相同、大小等于原支路电流的独立电流源替代，这样替代之后对电路中其余部分的电压、电流分配没有影响，即电路中其余部分的电压、电流保持不变，这就是替代定理。
+
+
+### 10
+#### 戴维南定理
+![](/images/{5DD6AFE4-938D-4092-AEA9-632FB6F44483}.png)要计算一个线性有源一端口网络的戴维南等效电路，其步骤和方法如下:
+(1)计算U利用电路分析方法，计算相应端口的开路电压。
+(2)计算R当线性有源一端口网络A中不含受控源时，令A内所有独立电源为零后得到的无源一端口网络P则为纯电阻网络，利用无源一端口网络的等效变换就可求出端口等效电阻;当线性有源一端口网络A中含有受控源时，令A内所有独立电源为零后得到的一端口网络P中仍含有受控源，这时，可采用加压法和开路短路法求R。
+
+#### 最大功率传输条件
+![](/images/{21719D6A-5B19-43E8-A55E-D361FDE65AFB}.png)
+![](/images/{5BE38A80-E1A5-40AF-9489-28B82A47FA25}.png)  
+
+
+#### 诺顿定理
+![](/images/{C3FD5824-F53A-42B7-815E-0DB19CABE90B}.png)
+$I_d=U_d/R_d$，$R_d$与戴维南定理中的相同
+
+### 11、特勒根定理
+假设有两个拓扑结构完全相同的网络$\mathrm{N}$、$\hat{\mathrm{~N}}$,它们都具有$b$条支路、$n$个节点, 每条支路电压和电流采用一致的参考方向, 对应支路、节点均采用相同的编号, 则网络$N$的支路电流与网络$\hat{\mathrm{N}}$的对应支路电压的乘积之总和为零, 也有网络$N$的支路电压与网络$\hat{N}$的对应支路电流的乘积之总和为零。这就是特勒根定理。用数学表达式表示为
+$$\sum_{k=1}^{b} \hat{U}_{k} I_{k}=0, \quad \sum_{k=1}^{b} U_{k} \hat{I}_{k}=0$$
+倘若$\mathrm{N}$、$\hat{\mathrm{~N}}$是同一个网络，那么有
+$$\sum_{k=1}^{b} U_{k} I_{k}=0$$
+
+### 12、互易定理
+
+
+## 第三章 正弦交流电路
+
+### 表示
+有效值：$U、I$
+最大值：$U_m、I_m$
+$u(t)=U_m \sin(\omega t +\varphi )=\sqrt {2}U \sin(\omega t +\varphi )$
+$i(t)=I_m \sin(\omega t +\varphi )=\sqrt {2}I \sin(\omega t +\varphi )=Im[\sqrt{2}Ie^{j \varphi}e^{j\omega t}]=Im[\sqrt{2}\dot{I}e^{j\omega t}]$
+向量形式：
+$\dot{I}=Ie^{j\varphi}=I\angle{\varphi}$
+### 电阻
+$U=IR$
+$\dot{U}=\dot{I}R$
+瞬时功率$p=ui=2UI\sin^2(\omega t)=UI-UI\cos{2 \omega t}$
+平均功率=有功功率=$P=UI=I^2R=\frac{U^2}{R}$
+### 电感
+$L$电感值，单位为亨利（$H$）
+$u_L=\frac{\mathrm{d} \phi }{\mathrm{d} t}=L\frac{\mathrm{d} i_L }{\mathrm{d} t}=\sqrt{2}I\omega L\sin(\omega t +90^{\circ}) =\sqrt {2}U_L\sin(\omega t +90^{\circ})$
+$U_L=\omega LI_L=X_L I_L$
+$\dot{U}_L=j\omega L\dot{I}_L=jX_L\dot{I}_L$
+自感电抗（感抗）$X_L=\frac{U_L}{I_L}=\omega L=2\pi fL$，单位为$\Omega$
+电感电纳（感纳）$B_L=\frac{1}{X_L}=\frac{1}{\omega L}$，单位为西门子($S$)
+瞬时功率$P_L=u_Li_L=2U_LI_L\sin(\omega t+90^{\circ})\sin{\omega t}=U_LI_L\sin{2\omega t}$
+平均功率=有功功率=0
+磁场储能$W_L=\frac{1}{2}Li^2_L=\frac{1}{2}LI^2_L(1-\cos{2\omega t})$
+
+### 电容
+略
+### 阻抗、导纳
+![](/images/{525B0AC7-5C85-4B8F-8B5C-76C9155C5D0B}.png)![](/images/{DA8F811C-0414-4AFA-87DE-1139387422F5}.png)
+![](/images/{5ABE5AD8-49B4-4FD4-B949-B41506C44395}.png)
+
+
+### 功率计算
+
+#### **瞬时功率**
+$$\begin{aligned}
+p & =u i=\sqrt{2} U \sin \left(\omega t+\psi_{u}\right) \times \sqrt{2} I \sin \left(\omega t+\psi_{i}\right) \\
+& =U I \cos \left(\psi_{u}-\psi_{i}\right)-U I \cos \left(2 \omega t+\psi_{u}+\psi_{i}\right)\\
+& =U I \cos \left(\psi_{u}-\psi_{i}\right)-U I\left[\cos \left(\psi_{u}-\psi_{i}\right) \cos \left(2 \omega t+2 \psi_{i}\right)-\sin \left(\psi_{u}-\psi_{i}\right) \sin \left(2 \omega t+2 \psi_{i}\right)\right] \\
+& =U I \cos \varphi\left[1-\cos \left(2 \omega t+2 \psi_{i}\right)\right]+U I \sin \varphi \sin \left(2 \omega t+2 \psi_{i}\right) \\
+& =p_{1}+p_{2}
+\end{aligned}$$
+$p_1$传输方向始终不变，代表电网络实际消耗的电功率分量，平均值等于有功功率
+$p_2$是电源和网路之间往返交换的能量，代表瞬时功率中的无功分量，平均值为零
+定义该瞬时功率中无功分量的最大值为**无功功率**：
+
+#### **无功功率**
+$Q=UI\sin{\varphi}$，单位为伏安，简称乏(var)
+
+1. 负载为**电感**性，$\varphi>0,Q>0$,表示电感性负载**吸收(消耗)** 无功功率
+2. 负载为**电容**性，$\varphi<0,Q<0$,表示电容性负载**发出(产生)** 无功功率
+
+#### **有功功率**
+$P=UI\cos\psi$，单位W
+功率因数角：$\varphi=\psi_u-\psi_i$
+功率因数:$\cos{\varphi}$
+
+#### 功率表
+读数$P = U I \cos \left(\psi_{u}-\psi_{i}\right)=UI \cos{\varphi}$
+
+![](/images/1730280910373.png)
+#### **设备容量**
+额定电压与额定电流的乘积
+
+#### **视在功率**
+$S=UI$
+单位为伏安（$V\cdot A$）,或千伏安（$kV \cdot A$）
+
+#### **相互关系**
+$P=S\cos{\varphi}$
+$Q=S\sin{\varphi}$
+$S=UI=\sqrt{P^2+Q^2}$
+$\tan{\varphi}=\frac{Q}{P}$
+#### **复数功率**
+$$\tilde{S}=\dot{U}\overset{*}I=U I\angle
+{(\psi_{u}-\psi_{i})}=U I \cos \varphi+\mathrm{j} U I \sin \varphi=P+\mathrm{j} Q$$
+$\overset{\star}I$是电流共轭向量
+若电压电流方向一致，则上式表示一端口网络吸收的功率
+
+对于无源一端口网络，其吸收的复数功率可表示为
+$$\tilde{S}=\dot{U}\overset{*}I=I^2Z=U^2\overset{*}Y$$
+
+
+#### RL 串联电路
+![](/images/{0180C74E-FB07-4C11-8F62-1E55BC76A5E0}.png)
+有功功率：$P=UI \cos{\varphi}=UI\frac{R}{\sqrt{R^2+X^2_L}}=\frac{U}{Z}IR=I^2R$
+无功功率：$Q=UI \sin{\varphi}=UI\frac{X_L}{\sqrt{R^2+X^2_L}}=\frac{U}{Z}I X_L=I^2X_L$
+
+#### 功率守恒
+各支路电流的共轭向量也满足基尔霍夫电流定律：
+$$\sum_{k}\overset{*}I_{k}=0$$
+一个封闭的电路系统，其各支路的复功率之和为零：若选取各支路电流与电压的参考方向一致，则根据特勒根定律，有
+$$\sum_{1}^{b} \dot{U}_k \overset{*}I_{k}=0$$
+或
+$$\sum_{1}^{b} \tilde{S}_k=0$$
+#### 正弦交流电路中的功率守恒定理
+![](/images/{9CB8908A-C694-483A-B660-EE9CC0378A81}.png)
+
+对典型支路有：
+$$\sum_{1}^{b} \dot{U}_{\mathrm{Sk}} \overset{*}{I}_{e k}+\sum_{1}^{b} \overset{*}{I}_{\mathrm{Sk}} \dot{U}_{k}=\sum_{1}^{b} \dot{I}_{e k} \overset{*}{I}_{e k} Z_{k}$$
+$\Longleftrightarrow$
+$$\sum_{k} \tilde{S}_{\text {源 }}=\sum_{k} \tilde{S}_{\text {负载 }}$$
+$\Longleftrightarrow$
+$$\sum_{k}\left(P_{\text {源 }}+\mathrm{j} Q_{\text {源 }}\right)=\sum_{k}\left(P_{\text {负载 }}+\mathrm{j} Q_{\text {负载 }}\right)
+$$
+
+即有
+$$\begin{array}{l}
+\sum_{k} P_{\text {激 }}=\sum_{k} P_{\text {负载 }} \\
+\sum_{k} Q_{\text {源 }}=\sum_{k} Q_{\text {负载 }}
+\end{array}
+$$
+
+#### 共轭匹配
+![](/images/{6FF2D9C1-B7FD-4C21-BC06-D886E3192694}.png)
+
+
+
+## 第四章 谐振、互感及三相交流电路
+谐振状态：阻抗或导纳呈纯电阻特性，使端口电压与电流成为同相。
+### 1、谐振现象分析
+#### RLC串联谐振（电压谐振）
+![](/images/{3DE5B055-0241-442E-BD5F-0BCABA799D41}.png)
+$$Z=R+j\omega L-j \frac{1}{\omega C}=R+j(X_L-X_C)=R+jX$$
+谐振角频率:$\omega_0=\frac{1}{\sqrt{LC}}$
+谐振频率：$f_0=\frac{1}{2\pi}\frac{1}{\sqrt{LC}}$
+特性阻抗：$\rho=\sqrt{LC}=\frac{1}{\omega_0 C}=\omega_0 L=X_C=X_L$，单位为$\Omega$
+其他：
+$$\begin{array}{l}
+\dot{U}_L=j\omega_0L\dot{I}=j\rho\dot{I}\\
+\dot{U}_C=-j\frac{1}{\omega_0 C}\dot{I}=-j\rho\dot{I}\\
+\dot{U}_R=R\dot{I}\\
+\dot{I}=\frac{\dot{U}}{Z}=\frac{\dot{U}}{R}\\
+\end{array}
+$$
+品质因数Q:
+$$Q=\frac{\rho}{R}=\frac{\omega_0 L}{R}=\frac{1}{R\omega_0C}=\frac{1}{R}\sqrt{\frac{L}{C}}=\frac{I_0\rho}{I_0R}=\frac{U_C}{U_R}=\frac{U_L}{U_R}$$
+
+
+#### RLC并联谐振(电流谐振)
+![](/images/{6DD60BF5-FE8E-4A2F-B199-84A3B0C60296}.png)
+
+
+
+
+$$Y=\frac{1}{R}-\mathrm{j}\left(\frac{1}{\omega L}-\omega C\right)$$
+
+
+谐振角频率:$\omega_{0}=\frac{1}{\sqrt{L C}}$
+并联谐振的条件:感纳与容纳相等, 即 $B_{L}=B_{C}$ , 或  $\frac{1}{\omega L}=\omega C$  
+此时电路人端电流为
+$$\dot{I}=Y \dot{U}=\frac{1}{R} \dot{U}$$
+各元件上电流分别为
+
+$$\begin{array}{c}
+\dot{I}_{R}=\frac{1}{R} \dot{U}=\dot{I} \\
+\dot{I}_{L}=-\mathrm{j} \frac{1}{\omega_{0} L} \dot{U} \\
+\dot{I}_{C}=\mathrm{j} \omega_{0} C \dot{U}
+\end{array}$$
+
+
+并联谐振时，若外加电压不变，则谐振时流入的电流最小，此电流等于电阻上流过的电流。
+- 若并联电路中没有电导$G$的支路，则谐振时入端导纳 $Y=0$ 。其等效阻抗  $Z \rightarrow \infty$  ，因此由 $L C$并联而成的电路在发生谐振时，其入端电流  $\dot{I}=0$  。
+
+并联谐振电路的品质因数定义为电路感纳 $\frac{1}{\omega_{0} L}$  （或容纳  $\omega_{0} C$ ）与电导  $G=\frac{1}{R}$  之比，即
+
+$$Q=\frac{\omega_{0} C}{G}=\frac{1}{\omega_{0} L G}=\frac{1}{G} \sqrt{\frac{C}{L}}=\frac{I_C}{I_R}=\frac{I_L}{I_R}$$
+
+![](/images/Pasted image 20241031211720.png)![](/images/{DD4194EC-CDA2-495D-A788-7FE0C5ED51A8}.png)
+
+### 2、互感耦合电路
+**全篇**
