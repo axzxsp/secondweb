@@ -1,3 +1,11 @@
+---
+title: 数模mooc笔记
+date: 2024-12-18 19:42:02
+tags: 
+mathjax: true
+categories: 笔记
+---
+
 ## NIM游戏（数论模型）
 ### 游戏描述
  - 现有n堆硬币，每堆数量一定
