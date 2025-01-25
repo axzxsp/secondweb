@@ -99,9 +99,9 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: redefine
 
-markdown:
-  render:
-    html: true
+# markdown:
+#   render:
+#     html: true
     
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

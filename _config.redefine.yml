@@ -89,8 +89,11 @@ global:
     enable: true
     custom_message: # Custom message. If empty, the site title will be displayed
   # Whether to enable open graph
-  open_graph: true
-  # Google Analytics
+  open_graph:
+    enable: true
+    image: your_image_path
+    description: your_description
+
   google_analytics:
     enable: false # Whether to enable Google Analytics
     id:  # Google Analytics Measurement ID
